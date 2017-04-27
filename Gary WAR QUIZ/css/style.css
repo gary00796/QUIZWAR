@@ -1,0 +1,44 @@
+div#test
+{ 
+	border:white 20px groove;
+	padding:20px 60px 30px 30px;
+	margin-top: 180px;
+    margin-bottom: 40px;
+    margin-right: 250px;
+	
+}
+	
+body
+{
+	background-image: url("../img/war5.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-size: 1200px 950px;
+	padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+}
+#test_status
+{
+	color: white;
+	font-family: 'times new roman', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+	
+}
+#time
+{
+	color: white;
+	font size: 100px;
+	margin-top: 10px;
+}
+.quizquestions
+{
+	color: white;
+	font-size: 20px;
+}
+

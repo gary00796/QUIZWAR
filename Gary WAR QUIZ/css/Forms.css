@@ -1,0 +1,114 @@
+body {
+	margin: 10;
+	background-image: url("../img/war5.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-size: 1300px 1000px;
+}
+
+#content {
+	max-width: 948px;
+	margin: 0 auto;	
+
+}
+
+h1 {
+	color: black;
+	font-family: 'arial black', sans-serif;
+	font-size: 70px;
+	font-weight: 100;
+	line-height: 50px;
+	letter-spacing: 10px;
+	padding: 50px 0 40px;
+	border-bottom: double black;
+}
+
+.row {
+	display: flex;
+	height: 50%;
+}
+p {
+	color: #f8981C;
+	font-size: 24px;
+	font-family: "Courier New";
+}
+.image > img {
+	border: 4px solid white;
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 100px;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: blue; /* Red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.formLayout
+{
+    
+    border: solid 1px #a1a1a1;
+    padding: 10px;
+    width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formLayout label
+{
+    display: block;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+}
+ .formLayout input
+ { 	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 200px;
+    
+    margin-bottom: 25px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Righteous', cursive;
+	font-weight: bold;
+}
+
+.formLayout label
+{
+    text-align: right;
+    padding-right: 40px;
+}
+
+br
+{
+    clear: left;
+}
+
